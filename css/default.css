@@ -1,0 +1,99 @@
+.navbar-brand img{
+    max-width: 40px;
+}
+
+header .row{
+    min-height: 70vh;
+    background-image: url(../image/loop-chicago.jpg);
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+.formlogo{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 70vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+header h2{
+    font-family: 'Pompiere', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 768px){
+    header .accroche{
+        display: none;
+    }
+}
+
+#services .icon span{
+    color:red;
+    font-size: 1.5rem;
+}
+
+#services .media{
+    padding:0.5rem 1rem;
+    transition: all .3s ease-in-out;
+}
+
+#services .media:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.imagerealisation{min-height: calc(100vh - 50px);
+    background-image: url(../image/loop_metro.jpg);
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.colrealisation{
+    min-height: calc(100vh - 50px);
+    background-color: #d3dae4;
+}
+
+.colrealisation span img{
+    height:9rem;
+}
+
+.colrealisation h5{
+    font-size: 2.5rem;
+    color:#888;
+}
+
+#contact{
+    min-height: calc(100vh - 50px);
+    background-color: black;
+}
+
+#contact .row{
+    min-height: calc(100vh - 50px);;
+}
+
+.formcontact{
+    background-color: rgba(255, 255, 255, .7);
+    padding: 2rem 1rem;
+}
+
+footer{
+    background-color: rgba(0, 0, 0,.8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a{
+    color:#999;
+    font-size: 2rem;
+    transition: .2 ease-in-out;
+}
+
+footer a:hover{
+    color:#fff;
+    font-size: 2rem;
+    text-decoration: none;
+}
