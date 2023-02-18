@@ -43,7 +43,8 @@ header h2{
     background-color: rgba(128, 128, 128, 0.5);
 }
 
-.imagerealisation{min-height: calc(100vh - 50px);
+#realisation .row{
+    min-height: calc(100vh - 50px);
     background-image: url(../image/loop_metro.jpg);
     color:white;
     background-size: cover;
@@ -53,7 +54,8 @@ header h2{
 
 .colrealisation{
     min-height: calc(100vh - 50px);
-    background-color: #d3dae4;
+    color:black;
+    box-shadow: -1px 3px 7px rgb(0 0 0 / 20%)
 }
 
 .colrealisation span img{
@@ -63,6 +65,17 @@ header h2{
 .colrealisation h5{
     font-size: 2.5rem;
     color:#888;
+}
+
+.card{    
+    box-shadow: -1px 3px 7px rgb(0 0 0 / 20%);
+    padding: 10px;
+}
+
+
+.vignette{
+    background-color: #161616;
+    min-height: calc(100vh - 50px);
 }
 
 #contact{
