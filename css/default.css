@@ -1,5 +1,57 @@
 .navbar-brand img{
     max-width: 40px;
+    
+}
+
+.navbar-brand {
+    max-width: 40px;
+    color:rgb(189, 20, 20);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+    background-color: #1a1d24;
+}
+
+.nav-link{
+    color:whitesmoke;
+}
+
+.nav-link:hover{
+    color:rgb(189, 20, 20);
+}
+
+.nav-item{
+    min-width: 10rem;
+    text-align: center;
+    color:whitesmoke;
+}
+.active{
+ position:absolute;
+ bottom: 1.5rem;
+ height: 2px;
+ width: 10rem;
+ background-color: #fff;
+ transition: transform 0.25s;
+}
+
+.nav-item:nth-child(2):hover ~ .active {
+    transform: translateX(10rem);
+}
+
+.nav-item:nth-child(3):hover ~ .active {
+    transform: translateX(20rem);
+}
+
+.nav-item:nth-child(4):hover ~ .active {
+    transform: translateX(30rem);
+}
+
+.nav-item:nth-child(5):hover ~ .active {
+    transform: translateX(40rem);
 }
 
 header .row{
